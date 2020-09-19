@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "filehandingapp",
+			"path": "filehandingapp"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"window.titleSeparator": " - ",
+		"window.title": "al-samples${separator}${activeFolderLong}${separator}${dirty}${activeEditorShort}${separator}${appName}"
+	}
+}
