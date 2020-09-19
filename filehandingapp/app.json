@@ -1,0 +1,38 @@
+{
+  "id": "c98593b8-b8b3-4c69-8567-60c85c40824d",
+  "name": "File Handing Sample App.",
+  "publisher": "Saurav Dhyani",
+  "version": "16.0.0.0",
+  "brief": "This extension is an example of File Handing in Business Central.",
+  "description": "How to import/export data in Businsess Central SaaS using Blob and Media.",
+  "privacyStatement": "https://www.sauravdhyani.com",
+  "EULA": "https://www.sauravdhyani.com",
+  "help": "https://www.sauravdhyani.com",
+  "url": "https://www.sauravdhyani.com",
+  "logo": "image/Logo.png",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "16.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "16.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "16.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 500100
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://app.com/help/",
+  "showMyCode": true,
+  "runtime": "5.0"
+}
