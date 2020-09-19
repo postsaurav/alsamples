@@ -39,6 +39,12 @@ page 50000 "SDH File Handling Sample"
         }
         area(factboxes)
         {
+            part(SampleText; "SDH Sample Text")
+            {
+                ApplicationArea = All;
+                Caption = 'Text';
+                SubPageLink = ID = field(ID);
+            }
         }
     }
     actions
