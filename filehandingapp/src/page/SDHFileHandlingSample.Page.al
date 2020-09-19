@@ -39,12 +39,47 @@ page 50000 "SDH File Handling Sample"
         }
         area(factboxes)
         {
+            part(SampleText; "SDH Sample Text")
+            {
+                ApplicationArea = All;
+                Caption = 'Text';
+                SubPageLink = ID = field(ID);
+            }
         }
     }
     actions
     {
         area(Processing)
         {
+            action(ImportBlobFile)
+            {
+                ApplicationArea = All;
+                Image = Import;
+                ToolTip = 'Import a File into Blob Field.';
+
+                trigger OnAction()
+                var
+                    FilePath: Text;
+                    InFileStream: InStream;
+                begin
+                    If UploadIntoStream(SelectFileTextLbl, '', '', FilePath, InFileStream) then
+                        SaveAttachmentIntoBlobFromStream(InFileStream, FilePath);
+                end;
+            }
+
+            action(ExportBlobFile)
+            {
+                ApplicationArea = All;
+                Image = Export;
+                ToolTip = 'Exports a File from Blob Field.';
+
+                trigger OnAction()
+                begin
+                    DownloadFromBlob();
+                end;
+            }
         }
     }
+    var
+        SelectFileTextLbl: Label 'Select File..';
 }
