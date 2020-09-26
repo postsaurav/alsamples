@@ -1,5 +1,23 @@
 # Introduction 
-TODO: This repo is used to save #msdyn365bc AL Code Samples. 
+TODO: This repo is used to save #msdyn365bc AL Code Samples discussed during #bcopendiscussion.
+
+# Registration Link
+TODO: Register here - https://bit.ly/bcopendiscussion
+
+# Object Used 
+TODO: List of Object ID Used for samples in this workspace.
+1.	File Handing App - 
+        Page      - 50000|50001.
+        Table     - 50000.
+        Recording - https://youtu.be/SmvMbM5ct1M
+
+2.	Automated Testing App - 
+        PageExtension  - 50000|50001.
+        TableExtension - 50000|50001.
+        Codeunit       - 89000. 
+        Recording      -
+        
+3.  TBD
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
