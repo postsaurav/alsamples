@@ -3,6 +3,12 @@
 		{
 			"name": "filehandingapp",
 			"path": "filehandingapp"
+		},
+		{
+			"path": "automatedtesting-app"
+		},
+		{
+			"path": "automatedtesting-test"
 		}
 	],
 	"settings": {
