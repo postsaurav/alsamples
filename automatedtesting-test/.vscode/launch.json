@@ -8,7 +8,7 @@
             "server": "http://bc16saas/",                        
             "serverInstance": "BC",
             "authentication": "UserPassword",
-            "startupObjectId": 22,
+            "startupObjectId": 130401,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
