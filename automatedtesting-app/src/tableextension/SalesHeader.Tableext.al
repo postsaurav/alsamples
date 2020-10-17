@@ -6,6 +6,10 @@ tableextension 50001 "SDH Sales Header" extends "Sales Header"
         {
             DataClassification = ToBeClassified;
             Caption = 'Demo Text';
+            trigger OnValidate()
+            begin
+                TestStatusOpen();
+            end;
         }
     }
 }
