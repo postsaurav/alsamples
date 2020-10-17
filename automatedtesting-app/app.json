@@ -2,7 +2,7 @@
   "id": "b3c8da25-28ba-416b-ab07-1971f1f4dc51",
   "name": "Automated Testing Demo.",
   "publisher": "Saurav Dhyani",
-  "version": "16.0.0.0",
+  "version": "17.0.0.0",
   "brief": "This extension is an example used for Automated Testing.",
   "description": "How to Write app for automated Testing.",
   "privacyStatement": "https://www.sauravdhyani.com",
@@ -10,22 +10,10 @@
   "help": "https://www.sauravdhyani.com",
   "url": "https://www.sauravdhyani.com",
   "logo": "image/Logo.png",
-  "dependencies": [
-    {
-      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
-      "publisher": "Microsoft",
-      "name": "System Application",
-      "version": "16.0.0.0"
-    },
-    {
-      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
-      "publisher": "Microsoft",
-      "name": "Base Application",
-      "version": "16.0.0.0"
-    }
-  ],
+  "dependencies": [],
   "screenshots": [],
-  "platform": "16.0.0.0",
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
   "idRanges": [
     {
       "from": 50000,
@@ -34,5 +22,5 @@
   ],
   "contextSensitiveHelpUrl": "https://app.com/help/",
   "showMyCode": true,
-  "runtime": "5.0"
+  "runtime": "6.0"
 }
